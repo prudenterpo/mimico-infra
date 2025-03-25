@@ -1,4 +1,18 @@
 postgres_data/
+data/
 
+# Uncomment if you generate multiple backup files
+# db/backup-*.sql
+
+# Logs and temp files
 *.log
 *.tmp
+*.swp
+*.bak
+*.~*
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+.env
